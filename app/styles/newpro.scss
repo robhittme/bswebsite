@@ -18,7 +18,7 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
     border-radius: $radius;
 }
 
-.jumbotron, .header, .social  {@include border-radius(10px); }
+.jumbotron, .header, .social, .row {@include border-radius(10px); }
 body { @include font-family(Tahoma); }
 .browsehappy {
     margin: 0 auto;
